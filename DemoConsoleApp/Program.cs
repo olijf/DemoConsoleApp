@@ -22,7 +22,7 @@ namespace DemoConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("blah blah blah");
+            Console.WriteLine("test boodschap");
             Console.ReadKey();
         }
     }
