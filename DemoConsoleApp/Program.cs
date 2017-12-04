@@ -15,13 +15,15 @@ namespace DemoConsoleApp
             get { return blah; }
             set { blah = value; }
         }
-
+        public bool konijn { get; set; }
         public Persoon() => blah = new Persoon();
     }
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("blah blah blah");
+            Console.ReadKey();
         }
     }
 }
